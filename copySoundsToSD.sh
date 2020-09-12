@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# V0.1a by StephaneAG
+# released 13/09/2020
+
 # R: run the following for each card to format it correctly
 # 1: sudo diskutil list
 # 2: sudo diskutil eraseDisk FAT32 DFPLAYER MBRFormat /dev/disk1
