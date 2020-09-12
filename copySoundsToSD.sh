@@ -80,7 +80,8 @@ else
   mm=0
   ss=0
   #start=10 # debug 2-digits check - ok
-  for filename in "${sourceDir}/*.mp3"; do # for whatever dir ;p
+  #for filename in "${sourceDir}/*.mp3"; do # for whatever dir ;p
+  for filename in ${sourceDir}/*.mp3; do # for whatever dir ;p
     echo "copying $filename to SD card .."
     cp $filename "${sinkDir}/" # copy to SD card root
     
